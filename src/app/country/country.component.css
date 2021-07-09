@@ -1,0 +1,14 @@
+.main{
+    border: 1px solid black;
+    width: 100%;
+}
+.head{
+    border-bottom: 1px solid black;
+
+}
+.content{
+    height: auto;
+}
+.footer{
+    border-top: 1px solid black;
+}

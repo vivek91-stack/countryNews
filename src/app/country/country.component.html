@@ -1,0 +1,12 @@
+<select name="city" class="rounded-inputs20 select-select col-md-3">
+    <option *ngFor="let country of countries" [value]="country.id">{{country.name}}</option>
+</select>
+
+<div class="main"> 
+    <div class="head"><h1>{{title}}</h1></div>
+    <div class="content"><p>{{description}}</p></div>
+    <div class="footer">
+        <h5>Author:{{author}}</h5>
+        <h5>Published At:{{published}}</h5>
+    </div>
+</div>
